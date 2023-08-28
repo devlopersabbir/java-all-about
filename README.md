@@ -79,8 +79,8 @@ type variableName = value;
   }
   ```
 
-## 04 Data type
+## 04 Data type [data-type](./data-types)
 
 Java data type
 
-### 04.1 Number Data Type
+### 04.1 Number Data Type [Number](./data-types/NumberType.java)
