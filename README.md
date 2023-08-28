@@ -2,7 +2,7 @@
 
 List of the Java class
 
-## Hello World Program [Hello](./Hello.java)
+## 01. Hello World Program [Hello](./Hello.java)
 
 - Code example
 
@@ -14,7 +14,7 @@ List of the Java class
   }
   ```
 
-## Comments in Java [Comments](./Comments.java)
+## 02. Comments in Java [Comments](./Comments.java)
 
 - Code example
 
@@ -34,7 +34,7 @@ List of the Java class
   }
   ```
 
-## Variable in Java [Variable](./Variable.java)
+## 03. Variable in Java [Variable](./Variable.java)
 
 The variable syntax looks like this.
 
@@ -78,3 +78,9 @@ type variableName = value;
     }
   }
   ```
+
+## 04 Data type
+
+Java data type
+
+### 04.1 Number Data Type
