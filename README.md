@@ -84,3 +84,12 @@ type variableName = value;
 Java data type
 
 ### 04.1 Number Data Type [Number](./data-types/NumberType.java)
+
+## 05 Defarent between primitive & Non-Primitive
+
+| Primitive                                                                     | Non-Primitive                                                                                    |
+| ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Primitive types are predefined (already defined) in Java                      | Non-primitive types are created by the programmer and is not defined by Java (except for String) |
+| Non-primitive types can be used to call methods to perform certain operations | while primitive types cannot                                                                     |
+| A primitive type has always a value                                           | while non-primitive types can be null                                                            |
+| A primitive type starts with a lowercase letter                               | while non-primitive types starts with an uppercase letter                                        |
