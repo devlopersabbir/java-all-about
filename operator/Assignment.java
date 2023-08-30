@@ -50,6 +50,5 @@ public class Assignment {
         System.out.println(andBit);
 
         // Bitwise OR Assignment
-
     }
 }
