@@ -19,5 +19,19 @@ public class IfCondition {
         } else {
             System.out.println("false");
         }
+
+        /*
+         * If Else
+         * -> else....if statement
+         */
+        if (a <= 2) {
+            System.out.println("A ar theke 2 boro ba soman");
+        } else if (b <= 2) {
+            System.out.println("b ar theke 2 boro ba soman");
+        } else if (a <= b) {
+            System.out.println("a ar theke b boro ba soman");
+        } else {
+            System.out.println("kono tai sothik noy");
+        }
     }
 }
