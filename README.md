@@ -94,7 +94,7 @@ Java data type
 | A primitive type has always a value                                           | while non-primitive types can be null                                                            |
 | A primitive type starts with a lowercase letter                               | while non-primitive types starts with an uppercase letter                                        |
 
-## 05. [Java String](./JavaString.java)
+## 05. [Java String](./String/JavaString.java)
 
 Strings are used for storing text.
 
@@ -109,3 +109,19 @@ Strings are used for storing text.
   String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   System.out.println("The length of the txt string is: " + txt.length());```
   ````
+
+- 05.2 More String Methods There are many string methods available, for example
+  `toUpperCase()` and `toLowerCase()`:
+  ```java
+  String txt = "Hello World";
+  System.out.println(txt.toUpperCase());   // Outputs "HELLO WORLD"
+  System.out.println(txt.toLowerCase());   // Outputs "hello world"
+  ```
+- 05.3 Finding a Character in a String The `indexOf()` method returns the index
+  (the position) of the first occurrence of a specified text in a string
+  (including whitespace):
+
+```java
+String txt = "Please locate where 'locate' occurs!";
+System.out.println(txt.indexOf("locate")); // Outputs 7
+```
