@@ -93,3 +93,18 @@ Java data type
 | Non-primitive types can be used to call methods to perform certain operations | while primitive types cannot                                                                     |
 | A primitive type has always a value                                           | while non-primitive types can be null                                                            |
 | A primitive type starts with a lowercase letter                               | while non-primitive types starts with an uppercase letter                                        |
+
+## 05. [Java String](./JavaString.java)
+
+Strings are used for storing text.
+
+    05.1 String Length
+
+- A `String` in Java is actually an object. which contain methods that can
+  perform certain operations on strings. For example, the length of a string can
+  be found with the `length()` method:
+  ````java
+
+  String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  System.out.println("The length of the txt string is: " + txt.length());```
+  ````
