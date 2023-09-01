@@ -98,11 +98,12 @@ Java data type
 
 Strings are used for storing text.
 
-    05.1 String Length
+- 05.1 String Length
 
-- A `String` in Java is actually an object. which contain methods that can
+  A `String` in Java is actually an object. which contain methods that can
   perform certain operations on strings. For example, the length of a string can
   be found with the `length()` method:
+
   ````java
 
   String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
