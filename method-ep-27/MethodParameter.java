@@ -22,11 +22,11 @@ public class MethodParameter {
 
     public static void main(String[] args) {
         // Argument passing
-        // showDetails("Sabbir Hossain Shuvo", 19, 652841);
+        showDetails("Sabbir Hossain Shuvo", 19, 652841);
 
         // store output into another variable
-        // String result = showHistory("Sabbir Hossain Shuvo", 19, 652841);
-        // System.out.println(result);
+        String result = showHistory("Sabbir Hossain Shuvo", 19, 652841);
+        System.out.println(result);
         checkAge(18);
     }
 
