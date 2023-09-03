@@ -121,7 +121,7 @@ Strings are used for storing text.
   (the position) of the first occurrence of a specified text in a string
   (including whitespace):
 
-```java
-String txt = "Please locate where 'locate' occurs!";
-System.out.println(txt.indexOf("locate")); // Outputs 7
-```
+  ```java
+  String txt = "Please locate where 'locate' occurs!";
+  System.out.println(txt.indexOf("locate")); // Outputs 7
+  ```
