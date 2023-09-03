@@ -6,5 +6,9 @@ public class JavaClassObject {
         // object
         JavaClassObject myobj = new JavaClassObject();
         System.out.println(myobj.x);
+
+        JavaClassObject object2 = new JavaClassObject();
+        object2.x = 22;
+        System.out.println(object2.x);
     }
 }
