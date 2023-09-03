@@ -107,7 +107,7 @@ Strings are used for storing text.
   ````java
 
   String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  System.out.println("The length of the txt string is: " + txt.length());```
+  System.out.println("The length of the txt string is: " + txt.length());
   ````
 
 - 05.2 More String Methods There are many string methods available, for example
