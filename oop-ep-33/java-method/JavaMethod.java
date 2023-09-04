@@ -1,7 +1,13 @@
 
 public class JavaMethod {
+    // static method
     static String getName() {
         return "Sabbir Hossain";
+    }
+
+    // public method
+    public int getAge() {
+        return 19;
     }
 
     /**
@@ -10,6 +16,8 @@ public class JavaMethod {
      */
 
     public static void main(String[] args) {
-        getName();
+        JavaMethod gettingAge = new JavaMethod();
+        System.out.println(gettingAge.getAge());
+        System.out.println(getName());
     }
 }
