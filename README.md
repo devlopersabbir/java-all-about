@@ -134,6 +134,6 @@ kind of task
 #### Deffrent between public & Static Keyword
 
 - Public
-  - public keyword can access without creating any object
+  - Public methods must be called by creating objects
 - Static
-  - static keyword can access using the class object
+  - Static methods can be called without creating objects
