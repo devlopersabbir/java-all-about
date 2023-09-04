@@ -104,11 +104,11 @@ Strings are used for storing text.
   perform certain operations on strings. For example, the length of a string can
   be found with the `length()` method:
 
-  ````java
+  ```java
 
   String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   System.out.println("The length of the txt string is: " + txt.length());
-  ````
+  ```
 
 - 05.2 More String Methods There are many string methods available, for example
   `toUpperCase()` and `toLowerCase()`:
@@ -125,3 +125,15 @@ Strings are used for storing text.
   String txt = "Please locate where 'locate' occurs!";
   System.out.println(txt.indexOf("locate")); // Outputs 7
   ```
+
+## 36. [Java Method](./oop-ep-33/java-method/JavaMethod.java)
+
+Java method work as like same as normal method that can help us to perform any
+kind of task
+
+#### Deffrent between public & Static Keyword
+
+- Public
+  - public keyword can access without creating any object
+- Static
+  - static keyword can access using the class object
