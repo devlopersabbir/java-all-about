@@ -18,7 +18,7 @@ public class JavaStatic {
         JavaStatic getMethod = new JavaStatic();
 
         getStaticMethod(); // static method calling
-        getMethod.getStaticMethod(); // static method || it's not good way
+        // getMethod.getStaticMethod(); // static method || it's not good way
         getMethod.getPublicMethod(); // public method
     }
 }
