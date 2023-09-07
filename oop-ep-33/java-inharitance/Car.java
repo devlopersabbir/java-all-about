@@ -10,7 +10,10 @@ class Car extends Vehicle {
     private String modelName = "Mustag";
 
     public static void main(String[] args) {
+
         Car carObj = new Car();
         System.out.println(carObj.brand);
+
+        System.out.println(carObj.modelName);
     }
 }
