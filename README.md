@@ -137,3 +137,68 @@ kind of task
   - Public methods must be called by creating objects
 - Static
   - Static methods can be called without creating objects
+
+## [Java Polymorphism](./oop-ep-33/java-polymorphism/JavaPolymorphism.java)
+
+The word polymorphism means having many forms. In simple words, we can define
+polymorphism as the ability of a message to be displayed in more than one form.
+
+Real-life Illustration Polymorphism: A person at the same time can have
+different characteristics. Like a man at the same time is a father, a husband,
+and an employee. So the same person possesses different behavior in different
+situations. This is called polymorphism.
+
+#### What is Polymorphism in Java?
+
+Polymorphism is considered one of the important features of Object-Oriented
+Programming. Polymorphism allows us to perform a single action in different
+ways. In other words, polymorphism allows you to define one interface and have
+multiple implementations. The word “poly” means many and “morphs” means forms,
+So it means many forms.
+
+#### Types of Java polymorphism
+
+In Java polymorphism is mainly divided into two types:
+
+- Compile-time Polymorphism
+
+  ##### Compile-Time Polymorphism
+
+  It is also known as static polymorphism. This type of polymorphism is achieved
+  by function overloading or operator overloading.
+
+  > Note: But Java doesn’t support the Operator Overloading. **Function
+  > Overloading**
+
+  ```java
+  class JavaPolymorphism {
+    public static void main(String[] args) {
+        System.out.println(Helper.multiply(2, 3));
+        System.out.println(Helper.multiply(2.3, 3.8));
+    }
+  }
+
+  class Helper {
+      static int multiply(int a, int b) { // we reveive 2 number a and b which is intiger types
+          return a * b;
+      }
+
+      static double multiply(double a, double b) {
+          return a * b;
+      }
+  }
+
+  ```
+
+  **Output**
+
+  ```
+  6
+  1.1399999999999992
+  ```
+
+- Runtime Polymorphism
+
+```
+
+```
