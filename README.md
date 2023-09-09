@@ -198,7 +198,3 @@ In Java polymorphism is mainly divided into two types:
   ```
 
 - Runtime Polymorphism
-
-```
-
-```
