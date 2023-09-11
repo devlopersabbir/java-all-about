@@ -1,7 +1,7 @@
 public class JavaEnum2 {
     public static void main(String[] args) {
-        // for(String role: )
         ERole role = ERole.USER;
+
         switch (role) {
             case ADMIN:
                 System.out.println("Admin");
