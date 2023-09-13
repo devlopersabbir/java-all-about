@@ -179,7 +179,7 @@ In Java polymorphism is mainly divided into two types:
   }
 
   class Helper {
-      static int multiply(int a, int b) { // we reveive 2 number a and b which is intiger types
+      static int multiply(int a, int b) { // we reveive 2 number a and b which is integer types
           return a * b;
       }
 
@@ -198,3 +198,6 @@ In Java polymorphism is mainly divided into two types:
   ```
 
 - Runtime Polymorphism
+
+
+java basic
