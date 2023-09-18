@@ -9,5 +9,8 @@ public class JavaHashMap {
         capitalCities.put("roll", "652841");
 
         System.out.println(capitalCities);
+
+        System.out.println(capitalCities.get("age"));
+
     }
 }
