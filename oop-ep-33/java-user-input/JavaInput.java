@@ -7,9 +7,9 @@ public class JavaInput {
         System.out.print("Enter your full name: ");
         String fullName = scanner.nextLine();
         System.out.print("Enter your username: ");
-        String username = scanner.nextLine();
+        // String username = scanner.nextLine();
         System.out.print("Enter your email: ");
-        String email = scanner.nextLine();
+        // String email = scanner.nextLine();
 
         System.out.format("\nHello %s!\n", fullName);
 
