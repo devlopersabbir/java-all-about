@@ -7,6 +7,8 @@ public class JavaArrayList {
         cars.add("Rafi Cars");
         cars.add("Tahsin Cars");
         cars.add("Tanvir Cars");
-        System.out.println(cars);
+        for (String car : cars) {
+            System.out.println(car);
+        }
     }
 }
