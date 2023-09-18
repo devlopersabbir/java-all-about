@@ -7,8 +7,24 @@ public class JavaArrayList {
         cars.add("Rafi Cars");
         cars.add("Tahsin Cars");
         cars.add("Tanvir Cars");
+
+        System.out.println(cars.size());
+
+        System.out.println(cars);
+        cars.set(1, "Rizvi Cars");
+
         for (String car : cars) {
             System.out.println(car);
         }
+
+        cars.remove(3);
+        System.out.println(cars);
+        // cars.clear();
+        System.out.println(cars + "=====loop=====");
+
+        for (int i = 0; i < cars.size(); i++) {
+            System.out.println(cars.get(i));
+        }
+
     }
 }
