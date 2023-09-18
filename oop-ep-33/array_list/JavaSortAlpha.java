@@ -11,6 +11,7 @@ public class JavaSortAlpha {
         names.add("Ankon");
         names.add("Rizvi");
 
+        // sort with Collections
         Collections.sort(names);
         for (String name : names) {
             System.out.println(name);
